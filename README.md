@@ -1,17 +1,22 @@
 # framebuffer-vncserver
 
-1. Added 32-bit color-depth support on top of the original version.
-2. Introduced mouse control that is mapped to the on-screen input device.
+- Added 32-bit color-depth support on top of the original version.
+- Introduced mouse control that is mapped to the on-screen input device.
 
-1. 在原版的基础上，添加了32位色深的支持
-2. 增加了鼠标控制，映射到屏幕输入设备的功能
+- 在原版的基础上，添加了32位色深的支持
+- 增加了鼠标控制，映射到屏幕输入设备的功能
 
-e.g.   sudo framebuffer-vncserver -f /dev/fb0 -p 5900 -t /dev/input/event2 -v
+e.g.   
+```
+sudo framebuffer-vncserver -f /dev/fb0 -p 5900 -t /dev/input/event2 -v
+```
 
 from  https://github.com/ponty/framebuffer-vncserver
 
 ---
-
+Original project description below
+以下为原项目说明
+---
 VNC server for Linux framebuffer devices.
 
 ![workflow](https://github.com/ponty/framebuffer-vncserver/actions/workflows/main.yml/badge.svg)
